@@ -1,3 +1,5 @@
+CREATE DATABASE host_agent;
+
 \c host_agent;
 
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info

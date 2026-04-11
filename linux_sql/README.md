@@ -14,9 +14,9 @@ Create a psql instance with `psql_docker.sh`[^1]
 ./scripts/psql_docker.sh create <db_username> <db_password>
 ```
 
-Generate the tables with the `ddl.sql`
+Generate the database and tables with the `ddl.sql`
 ```
-psql -h localhost -U <db_username> -d host_agent -f ./sql/ddl.sql
+psql -h localhost -U <db_username> -f ./sql/ddl.sql
 ```
 
 Insert the Hardware Specifications into the database with `host_info.sh`[^2]
