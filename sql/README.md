@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS PUBLIC.bookings (
 ### Modifying data
 
 ###### Question 1: Insert some data into a table
-
+https://pgexercises.com/questions/updates/insert.html
 ```sql
 INSERT INTO cd.facilities (
     facid, name, membercost, guestcost,
