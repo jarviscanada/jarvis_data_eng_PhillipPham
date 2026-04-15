@@ -423,7 +423,7 @@ ORDER BY
   m.joindate ASC;
 ```
 
-###### Question 25: Output the facility id that has the highest number of slots booked
+###### Question 25: Output the facility ID that has the highest number of slots booked
 https://pgexercises.com/questions/aggregates/fachours4.html
 ```sql
 SELECT 
@@ -502,7 +502,7 @@ WHERE
   m.telephone LIKE '%(___)%';
 ```
 
-###### Question 28: Count number of members whose surname starts with each letter of the alphabet
+###### Question 28: Count the number of members whose surname starts with each letter of the alphabet
 https://pgexercises.com/questions/string/substr.html
 ```sql
 SELECT 
