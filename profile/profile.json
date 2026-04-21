@@ -1,0 +1,85 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Science",
+      "department": "Computer Science",
+      "duration": "2018-2023",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_PhillipPham",
+  "highlighted_projects": [
+    {
+      "description": "Prototyped an SMS staffing application that used SQLite, a Flask REST API, and Twilio to automate the process of contacting staff and filling shifts when employees called in sick.",
+      "git_url": "https://github.com/PHIQW/SMS-staffing-application",
+      "name": "Sick Day Scheduler"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a hardware usage-tracking system for remote Linux cluster nodes using Bash scripts and a Dockerized Postgres database, all automated with Crontab.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Phillip Pham",
+  "others": [
+    {
+      "bullets": [
+        "Food: Dining in and out of the Greater Toronto Area(GTA) is always something I look forward to. I'm always taking recommendations for what spots to visit next, and what sort of dishes or specialties to look out for.",
+        "Music: Listen to a lot of music, mostly metal and rock, my favorite bands being Opeth and Fleshwater.",
+        "Tea: I like to drink teas and tisanes simply because it's fun to drink. I look to enjoy what each tea and blend has to offer, but my ongoing favorites have been Jasmine teas and first flush Darjeeling."
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Collaborated in an Agile environment to create software leveraging cloud platforms and programming frameworks to automate and mechanize internal tooling for various sectors of the Jarvis company.",
+      "duration": "2026-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "PCL Graphics",
+      "description": "Operated and configured Kongsberg CNC Machinery to cleanly cut diverse print jobs, considering sizing and material constraints to minimize processing errors and maximize machine longevity.",
+      "duration": "2024-2026",
+      "title": "Cutter/Finisher"
+    },
+    {
+      "company": "Wellness Living",
+      "description": "Coordinated between 3 teams in a scrum-like environment to enhance communication within internal ticketing systems like ZOHO and JIRA to ensure up-to-date information for features and issues to be resolved, and documented in future releases.",
+      "duration": "2021",
+      "title": "Product Ops"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "JavaScript",
+      "HTML/CSS",
+      "Docker",
+      "Postman",
+      "Flask"
+    ],
+    "familiar": [
+      "Google Cloud",
+      "Express",
+      "React",
+      "MongoDB",
+      "Gradle",
+      "JUnit 5",
+      "Selenium",
+      "Figma"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Hey, I'm Phillip, a computer science graduate from the University of Toronto, Scarborough Campus. I've mostly worked in software with agile teams, whether it's creating REST APIs, prototyping solutions, or configuring internal tooling. I'm looking to become a developer and love learning how the underlying systems work and how we can piece them together to create new and fun things. I consider myself a well-rounded candidate as I've had experience on the programming side, developing solutions with tools like Python, Bash, and Docker, but also on the business and project management side, organizing ticketing tools, and gathering project requirements."
+}
