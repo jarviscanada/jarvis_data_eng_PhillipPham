@@ -13,7 +13,7 @@ public interface JavaGrep {
   /**
    * Top level search workflow.
    *
-   * @throws IOException i/o failure
+   * @throws IOException file error during processing
    */
   void process() throws IOException;
 
@@ -42,10 +42,10 @@ public interface JavaGrep {
   boolean containsPattern(String line);
 
   /**
-   * writes lines to a file.
+   * writes lines to a file separated by newlines.
    *
    * @param lines Strings to write
-   * @throws IOException on write error
+   * @throws IOException on write error/file error
    */
   void writeToFile(List<String> lines) throws IOException;
 
@@ -59,5 +59,5 @@ public interface JavaGrep {
 
   String getOutfile();
 
-  void setOutfile(String outfile);
+  void setOutfile(String outFile);
 }

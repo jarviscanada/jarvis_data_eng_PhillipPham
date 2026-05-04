@@ -10,12 +10,20 @@
   </properties>
 
   <dependencies>
-    <!-- Source: https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+
+    <!-- Source: https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
     <dependency>
       <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>2.0.16</version>
-      <type>pom</type>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.17</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- Source: https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-reload4j</artifactId>
+      <version>2.0.17</version>
       <scope>compile</scope>
     </dependency>
 
