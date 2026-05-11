@@ -1,0 +1,92 @@
+# Preferred name (Characters only)
+name: "Phillip Pham"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_PhillipPham
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I'm a developer who graduated with a degree in computer science from the University of Toronto. I think learning how the underlying systems work and how we can build on them is a great foundation for building things, software or otherwise. I consider myself well-rounded as I've had experience on the programming side, developing prototypes for clients like a sick-day scheduler, doing both planning and implementation with Python and SQL, but also on the business and project management side, organizing ticketing tools, and gathering project requirements for the same project.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - JavaScript
+    - HTML/CSS
+    - Docker
+    - Postman
+    - Flask
+  # At least 5 skills
+  familiar:
+    - Java
+    - Maven
+    - Junit
+    - Google Cloud
+    - Express
+    - React
+    - Gradle
+    - MongoDB
+    - Selenium
+    - Figma
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a hardware usage-tracking system for remote Linux cluster nodes to collect resource metrics for the Linux Administration at Jarvis to view and analyze for node size scaling. Created crontab-scheduled Bash scripts that integrate with a Dockerized Postgres database to regularly parse, format, and store data from Linux commands such as lscpu and df.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Sick Day Scheduler"
+    #URL is optional
+    git_url: "https://github.com/PHIQW/SMS-staffing-application"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Prototyped an SMS staffing application that automated the process of filling shifts when employees called in sick. Architected a SQLite database managed through a Flask REST API to manage staff data and availabilty and log sick days. SMS functionality was defined through Twilio to allow staff and app communication through text, and API testing was mapped out with Postman.
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2026-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Created software in an Agile environment, leveraging cloud platforms and programming frameworks to automate and mechanize internal tooling for various sectors of the Jarvis company, such as a resource monitoring system to automatically track and monitor usage for remote Linux nodes."
+  - title: "Cutter/Finisher"
+    company: "PCL Graphics"
+    duration: "2024-2026"
+    description: "Operated and configured Kongsberg CNC Machinery with I-Cut software to manipulate the layering and properties to cleanly cut diverse print jobs. Tool type, size, and speed were all custom-suited for each new job with respect to historical usage data to ensure that projects of any size and material were cut cleanly to the client's satisfaction. Raised errors early with project managers and department leads to remedy issues before jobs to save time, and maximize machine longevity."
+  - title: "Product Ops"
+    company: "Wellness Living"
+    duration: "2021"
+    description: "Tested software behavior to ensure that features behave according to the project manager?s vision, and updated the knowledge base to reflect it. Created dashboards and filters in ZOHO and Jira so users can view and access priotity tickets by feature in a compact and consistent view. Summarized and communicated recent issues and notable tickets to ensure respective impacted teams are aware of the current progress and status of ongoing events."
+
+#List of edcuation
+education: 
+  - school_name: "University of Toronto"
+    duration: "2018-2023"
+    degree: "Bachelor of Science"
+    department: "Computer Science"
+    # optional
+    awards_achievements:
+
+#Optional section
+others:
+    #category
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Food: Dining in and out of the Greater Toronto Area(GTA) is always something I look forward to. I'm always taking recommendations for what spots to visit next, and what sort of dishes or specialties to look out for."
+      - "Music: Listen to a lot of music, mostly metal and rock, my favorite bands being Opeth and Fleshwater. I listen to a couple of new albums each month for varying reasons, like there's a lot of news around it, a friend recommended it, I like the artist, or maybe I'm trying to get into new genres. I think exploring personal taste and understanding why I like something is a big part of enjoying this hobby for me."
+      - "Tea: I like to drink teas and tisanes simply because it's fun to drink. I look to enjoy what each tea and blend has to offer, but my ongoing favorites have been Jasmine teas and first flush Darjeeling. The 'Tea Guild of Canada' hosts the 'Toronto Tea Festival' every year, and I highly recommend it for both tastemaking and education if you like tea."

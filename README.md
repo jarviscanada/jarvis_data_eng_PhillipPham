@@ -1,8 +1,41 @@
-# Jarvis Data Engineering Training
-1. [Linux Cluster Monitoring Agent (Linux and SQL)](./linux_sql) In-progress
-2. [Core Java Apps](./core_java) In-progress
-3. [Python Data Analytics](./python_data_analytics) In-progress
-4. [Spring Boot Trading REST API](./springboot) In-progress
-5. [Javascript Front End](./javascript) In-progress
-6. [Cloud/DevOps](./cloud_devops) In-progress
+# Phillip Pham . Jarvis Consulting
 
+I'm a developer who graduated with a degree in computer science from the University of Toronto. I think learning how the underlying systems work and how we can build on them is a great foundation for building things, software or otherwise. I consider myself well-rounded as I've had experience on the programming side, developing prototypes for clients like a sick-day scheduler, doing both planning and implementation with Python and SQL, but also on the business and project management side, organizing ticketing tools, and gathering project requirements for the same project.
+
+## Skills
+
+**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+
+**Competent:** JavaScript, HTML/CSS, Docker, Postman, Flask
+
+**Familiar:** Java, Maven, Junit, Google Cloud, Express, React, Gradle, MongoDB, Selenium, Figma
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PhillipPham](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham)
+
+
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/linux_sql)]: Implemented a hardware usage-tracking system for remote Linux cluster nodes to collect resource metrics for the Linux Administration at Jarvis to view and analyze for node size scaling. Created crontab-scheduled Bash scripts that integrate with a Dockerized Postgres database to regularly parse, format, and store data from Linux commands such as lscpu and df.
+
+
+## Highlighted Projects
+**Sick Day Scheduler** [[GitHub](https://github.com/PHIQW/SMS-staffing-application)]: Prototyped an SMS staffing application that automated the process of filling shifts when employees called in sick. Architected a SQLite database managed through a Flask REST API to manage staff data and availabilty and log sick days. SMS functionality was defined through Twilio to allow staff and app communication through text, and API testing was mapped out with Postman.
+
+
+## Professional Experiences
+
+**Software Developer, Jarvis (2026-present)**: Created software in an Agile environment, leveraging cloud platforms and programming frameworks to automate and mechanize internal tooling for various sectors of the Jarvis company, such as a resource monitoring system to automatically track and monitor usage for remote Linux nodes.
+
+**Cutter/Finisher, PCL Graphics (2024-2026)**: Operated and configured Kongsberg CNC Machinery with I-Cut software to manipulate the layering and properties to cleanly cut diverse print jobs. Tool type, size, and speed were all custom-suited for each new job with respect to historical usage data to ensure that projects of any size and material were cut cleanly to the client's satisfaction. Raised errors early with project managers and department leads to remedy issues before jobs to save time, and maximize machine longevity.
+
+**Product Ops, Wellness Living (2021)**: Tested software behavior to ensure that features behave according to the project manager?s vision, and updated the knowledge base to reflect it. Created dashboards and filters in ZOHO and Jira so users can view and access priotity tickets by feature in a compact and consistent view. Summarized and communicated recent issues and notable tickets to ensure respective impacted teams are aware of the current progress and status of ongoing events.
+
+
+## Education
+**University of Toronto (2018-2023)**, Bachelor of Science, Computer Science
+
+
+## Miscellaneous
+- Food: Dining in and out of the Greater Toronto Area(GTA) is always something I look forward to. I'm always taking recommendations for what spots to visit next, and what sort of dishes or specialties to look out for.
+- Music: Listen to a lot of music, mostly metal and rock, my favorite bands being Opeth and Fleshwater. I listen to a couple of new albums each month for varying reasons, like there's a lot of news around it, a friend recommended it, I like the artist, or maybe I'm trying to get into new genres. I think exploring personal taste and understanding why I like something is a big part of enjoying this hobby for me.
+- Tea: I like to drink teas and tisanes simply because it's fun to drink. I look to enjoy what each tea and blend has to offer, but my ongoing favorites have been Jasmine teas and first flush Darjeeling. The 'Tea Guild of Canada' hosts the 'Toronto Tea Festival' every year, and I highly recommend it for both tastemaking and education if you like tea.
