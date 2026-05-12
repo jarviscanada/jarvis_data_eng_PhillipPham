@@ -2,7 +2,6 @@ package ca.jrvs.apps.grep;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -14,7 +13,6 @@ import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +22,7 @@ import org.slf4j.LoggerFactory;
  */
 public class JavaGrepImp implements JavaGrep {
 
-  private static final Logger logger = LoggerFactory.getLogger("JavaGrep.class");
+  static final Logger logger = LoggerFactory.getLogger("JavaGrep.class");
 
   private String regex;
   private String rootPath;
@@ -56,22 +54,28 @@ public class JavaGrepImp implements JavaGrep {
           .map(Path::toFile)
           .collect(Collectors.toList());
       logger.debug("Success listing {} files", foundFiles.size());
-    } catch (Exception ex) {
+    } catch (IOException ex) {
       logger.error("Exception listing files");
     }
     return foundFiles;
   }
 
+  void checkFileRegular(File inputFile) throws IllegalArgumentException {
+    if (!(inputFile != null && Files.isRegularFile(inputFile.toPath()))) {
+      logger.error("File irregular");
+      throw new IllegalArgumentException("File irregular");
+    }
+  }
+
   @Override
-  public List<String> readLines(File inputFile) {
+  public List<String> readLines(File inputFile) throws IllegalArgumentException {
+    checkFileRegular(inputFile);
     List<String> lines = Collections.emptyList();
     try {
       lines = Files.readAllLines(inputFile.toPath());
-      logger.debug("Success getting all lines of file");
-    } catch (FileNotFoundException ex) {
-      logger.error("File not found", ex);
-    } catch (Exception ex) {
-      logger.error("Exception with file", ex);
+      logger.trace("Success getting all lines of file");
+    } catch (IOException ex) {
+      logger.error("Exception reading lines from file", ex);
     }
     return lines;
   }
@@ -125,32 +129,5 @@ public class JavaGrepImp implements JavaGrep {
   public void setOutfile(String outFile) {
     logger.debug("Set outfile to {}", outFile);
     this.outFile = outFile;
-  }
-
-  /**
-   * Starts processes to simulate grep when called from the command line.
-   */
-  public static void main(String[] args) {
-
-    // logging config
-    BasicConfigurator.configure();
-
-    if (args.length != 3) {
-      logger.error("Illegal number of arguments: Expected 3, received {}", args.length);
-      throw new IllegalArgumentException("Illegal number of arguments: Expected 3, received "
-          + args.length);
-    }
-
-    // setup instance
-    JavaGrep javaGrep = new JavaGrepImp();
-    javaGrep.setRegex(args[0]);
-    javaGrep.setRootPath(args[1]);
-    javaGrep.setOutfile(args[2]);
-
-    try {
-      javaGrep.process();
-    } catch (Exception ex) {
-      logger.error("Error during process", ex);
-    }
   }
 }
