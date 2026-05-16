@@ -37,7 +37,7 @@ JUnit was used to test certain functions that did not require the file system, l
 There's also a slf4 logger that outputs process stages and errors for development purposes.
 
 # Deployment
-An image that hosts this app is on Dockerhub at phiqw/grep . Check the [quickstart](#quick-start) section on how to run it.
+An image that hosts this app is on Dockerhub with an image tagged `phiqw/grep`. Check the [quickstart](#quick-start) section on how to run it.
 
 The Dockerfile in the root directory is used to build the Docker image for the app. It builds off the Alpine version of AdoptOpenJDK for Java 8 and houses an uberjar of the compiled program. An entry point is set to run the jar, so when you use the docker run command, you just need to set the volumes and feed in the arguments for the app.
 
