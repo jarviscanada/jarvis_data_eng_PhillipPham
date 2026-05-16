@@ -44,6 +44,10 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Implemented a hardware usage-tracking system for remote Linux cluster nodes to collect resource metrics for the Linux Administration at Jarvis to view and analyze for node size scaling. Created crontab-scheduled Bash scripts that integrate with a Dockerized Postgres database to regularly parse, format, and store data from Linux commands such as lscpu and df.
+  - name: "Grep App"
+    git_url: "/core_java/grep"
+    # Keywords: Java 8, Lambda, Stream API, IntelliJ
+    description: Designed and implemented a CLI application that simulated the grep command functionality over lines from a directory of files to filter them with a given Regex. Utilised Java 8, its libraries, as well as the stream api and lambda functions to read and write files with over 100000 lines with less than 20MB of memory. Carried out a workflow with Git, Maven, IntelliJ, and Docker to write, test, package, and deploy code in a controlled and efficient environment.
 
 # List of personal or academic projects
 # Feel free to add more projects
