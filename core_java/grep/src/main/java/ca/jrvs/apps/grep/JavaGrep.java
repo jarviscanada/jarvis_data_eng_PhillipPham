@@ -30,6 +30,7 @@ public interface JavaGrep {
    *
    * @param inputFile file to read
    * @return list of lines from a file
+   * @throws IllegalArgumentException if inputFile is not file
    */
   List<String> readLines(File inputFile);
 
@@ -42,7 +43,7 @@ public interface JavaGrep {
   boolean containsPattern(String line);
 
   /**
-   * writes lines to a file separated by newlines.
+   * Writes lines to a file, separated by newlines.
    *
    * @param lines Strings to write
    * @throws IOException on write error/file error
