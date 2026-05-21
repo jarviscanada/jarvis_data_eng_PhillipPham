@@ -24,7 +24,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp implements JavaGrepLambda {
   public void process() throws IOException {
     logger.debug("Start Processing");
     try (Stream<File> fs = listFilesStream(getRootPath())) {
-      writeToFile(fs.flatMap(f -> readLinesStream(f).filter(this::containsPattern)));
+      writeToFile(fs.flatMap(this::readLinesStream).filter(this::containsPattern));
     }
     logger.debug("End Processing");
   }
