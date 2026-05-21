@@ -37,6 +37,12 @@ class JavaGrepImpTest {
   }
 
   @Test
+  void containsPattern_substring() {
+    jGrep.setRegex("alice");
+    assertTrue(jGrep.containsPattern("bob123alice123bob"));
+  }
+
+  @Test
   void listFiles_none() {
     jGrep.setRootPath("./data/empty");
     assertTrue(jGrep.listFiles(jGrep.getRootPath()).isEmpty());

@@ -27,6 +27,7 @@ public class JavaGrepImp implements JavaGrep {
   private String regex;
   private String rootPath;
   private String outFile;
+  private Pattern regPattern;
 
   @Override
   public void process() throws IOException {
@@ -82,7 +83,7 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public boolean containsPattern(String line) {
-    return Pattern.matches(getRegex(), line);
+    return this.regPattern.matcher(line).find();
   }
 
   @Override
@@ -118,6 +119,8 @@ public class JavaGrepImp implements JavaGrep {
   public void setRegex(String regex) {
     logger.debug("Set regex to {}", regex);
     this.regex = regex;
+    logger.debug("Compiling pattern");
+    this.regPattern = Pattern.compile(this.regex);
   }
 
   @Override
