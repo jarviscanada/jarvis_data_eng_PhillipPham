@@ -48,7 +48,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp implements JavaGrepLambda {
     checkFileRegular(inputFile);
     try {
       logger.trace("Getting stream of lines from file");
-      return Files.readAllLines(inputFile.toPath()).stream();
+      return Files.lines(inputFile.toPath());
     } catch (IOException ex) {
       logger.error("Exception reading line stream from file", ex);
     }
