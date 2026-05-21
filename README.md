@@ -17,6 +17,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PhillipPha
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/linux_sql)]: Implemented a hardware usage-tracking system for remote Linux cluster nodes to collect resource metrics for the Linux Administration at Jarvis to view and analyze for node size scaling. Created crontab-scheduled Bash scripts that integrate with a Dockerized Postgres database to regularly parse, format, and store data from Linux commands such as lscpu and df.
 
+**Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/core_java/grep)]: Designed and implemented a CLI application that simulated the grep command functionality over lines from a directory of files to filter them with a given Regex. Utilised Java 8, its libraries, as well as the stream api and lambda functions to read and write files with over 100000 lines with less than 20MB of memory. Carried out a workflow with Git, Maven, IntelliJ, and Docker to write, test, package, and deploy code in a controlled and efficient environment.
+
 
 ## Highlighted Projects
 **Sick Day Scheduler** [[GitHub](https://github.com/PHIQW/SMS-staffing-application)]: Prototyped an SMS staffing application that automated the process of filling shifts when employees called in sick. Architected a SQLite database managed through a Flask REST API to manage staff data and availabilty and log sick days. SMS functionality was defined through Twilio to allow staff and app communication through text, and API testing was mapped out with Postman.
