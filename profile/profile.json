@@ -26,6 +26,11 @@
       "description": "Designed and implemented a CLI application that simulated the grep command functionality over lines from a directory of files to filter them with a given Regex. Utilised Java 8, its libraries, as well as the stream api and lambda functions to read and write files with over 100000 lines with less than 20MB of memory. Carried out a workflow with Git, Maven, IntelliJ, and Docker to write, test, package, and deploy code in a controlled and efficient environment.",
       "git_url": "/core_java/grep",
       "name": "Grep App"
+    },
+    {
+      "description": "Designed and developed a student registration system in COBOL that allows users to track, manipulate, and query student data as well as the courses they're taking. Generates a VSAM key-sequenced data set to index and efficiently query student data. Formats human-readable report data on the terminal and in concrete files for users to easily digest query data and program flow.",
+      "git_url": "/mainframe/student_reg",
+      "name": "Student Registration System"
     }
   ],
   "name": "Phillip Pham",
@@ -61,6 +66,7 @@
   ],
   "skills": {
     "competent": [
+      "COBOL",
       "JavaScript",
       "HTML/CSS",
       "Docker",
