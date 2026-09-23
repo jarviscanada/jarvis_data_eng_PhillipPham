@@ -58,7 +58,7 @@ phiqw/stockquote:latest
 
 # Implementation
 ## ER Diagram
-![ER Diagram for database] (./assets/ERDiagram.png)
+![ER Diagram for database](./assets/ERDiagram.png)
 
 This is the architecture for the database. There are quotes and positions, where quotes keep the information of each stock quote, while the position keeps track of the user's trading profile.
 
