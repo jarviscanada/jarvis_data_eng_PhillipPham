@@ -6,9 +6,9 @@ I'm a developer who graduated with a degree in computer science from the Univers
 
 **Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** COBOL, JavaScript, HTML/CSS, Docker, Postman, Flask
+**Competent:** COBOL, Java, Maven, Junit, JavaScript, HTML/CSS, Docker, Postman, Flask
 
-**Familiar:** Java, Maven, Junit, Google Cloud, Express, React, Gradle, MongoDB, Selenium, Figma
+**Familiar:** Google Cloud, Express, React, Gradle, MongoDB, Selenium, Figma
 
 ## Jarvis Projects
 
@@ -18,6 +18,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_PhillipPha
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/linux_sql)]: Implemented a hardware usage-tracking system for remote Linux cluster nodes to collect resource metrics for the Linux Administration at Jarvis to view and analyze for node size scaling. Created crontab-scheduled Bash scripts that integrate with a Dockerized Postgres database to regularly parse, format, and store data from Linux commands such as lscpu and df.
 
 **Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/core_java/grep)]: Designed and implemented a CLI application that simulated the grep command functionality over lines from a directory of files to filter them with a given Regex. Utilised Java 8, its libraries, as well as the stream api and lambda functions to read and write files with over 100000 lines with less than 20MB of memory. Carried out a workflow with Git, Maven, IntelliJ, and Docker to write, test, package, and deploy code in a controlled and efficient environment.
+
+**Stockquote App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/core_java/stockquote)]: Architected a terminal-based Java application that tracks real-time stock quote data from AlphaVantageAPI so users can keep track of their trading portfolio and the value of all their stocks. Applied a Data Access Object pattern to separate business logic from persistent data operations. Isolated JUnit tests with Mockito mocks and stubs to test the logic of coupled components. Composed bash scripts and Docker commands to set up and run both the application and database with minimal commands.
 
 **Student Registration System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_PhillipPham/tree/master/mainframe/student_reg)]: Designed and developed a student registration system in COBOL that allows users to track, manipulate, and query student data as well as the courses they're taking. Generates a VSAM key-sequenced data set to index and efficiently query student data. Formats human-readable report data on the terminal and in concrete files for users to easily digest query data and program flow.
 
