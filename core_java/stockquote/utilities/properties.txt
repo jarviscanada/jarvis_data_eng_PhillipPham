@@ -1,0 +1,6 @@
+db-host=localhost
+db-name=stock_quote
+db-port=5432
+db-user=user
+db-password=password
+api-key=#YOUR-ALPHA-VANTAGE-KEY#
