@@ -20,6 +20,9 @@ skills:
   # At least 5 skills
   competent:
     - COBOL
+    - Java
+    - Maven
+    - Junit
     - JavaScript
     - HTML/CSS
     - Docker
@@ -27,9 +30,6 @@ skills:
     - Flask
   # At least 5 skills
   familiar:
-    - Java
-    - Maven
-    - Junit
     - Google Cloud
     - Express
     - React
@@ -49,6 +49,11 @@ jarvis_projects:
     git_url: "/core_java/grep"
     # Keywords: Java 8, Lambda, Stream API, IntelliJ
     description: Designed and implemented a CLI application that simulated the grep command functionality over lines from a directory of files to filter them with a given Regex. Utilised Java 8, its libraries, as well as the stream api and lambda functions to read and write files with over 100000 lines with less than 20MB of memory. Carried out a workflow with Git, Maven, IntelliJ, and Docker to write, test, package, and deploy code in a controlled and efficient environment.
+  - name: "Stockquote App"
+    git_url: "/core_java/stockquote"
+    # Keywords: Java 11, Okhttp, Maven, Mockito
+    description: Architected a terminal-based Java application that tracks real-time stock quote data from AlphaVantageAPI so users can keep track of their trading portfolio and the value of all their stocks. Applied a Data Access Object pattern to separate business logic from persistent data operations. Isolated JUnit tests with Mockito mocks and stubs to test the logic of coupled components. Composed bash scripts and Docker commands to set up and run both the application and database with minimal commands.
+
   - name: "Student Registration System"
     git_url: "/mainframe/student_reg"
     # Keywords: COBOL, VSAM

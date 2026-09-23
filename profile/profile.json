@@ -28,6 +28,11 @@
       "name": "Grep App"
     },
     {
+      "description": "Architected a terminal-based Java application that tracks real-time stock quote data from AlphaVantageAPI so users can keep track of their trading portfolio and the value of all their stocks. Applied a Data Access Object pattern to separate business logic from persistent data operations. Isolated JUnit tests with Mockito mocks and stubs to test the logic of coupled components. Composed bash scripts and Docker commands to set up and run both the application and database with minimal commands.",
+      "git_url": "/core_java/stockquote",
+      "name": "Stockquote App"
+    },
+    {
       "description": "Designed and developed a student registration system in COBOL that allows users to track, manipulate, and query student data as well as the courses they're taking. Generates a VSAM key-sequenced data set to index and efficiently query student data. Formats human-readable report data on the terminal and in concrete files for users to easily digest query data and program flow.",
       "git_url": "/mainframe/student_reg",
       "name": "Student Registration System"
@@ -67,6 +72,9 @@
   "skills": {
     "competent": [
       "COBOL",
+      "Java",
+      "Maven",
+      "Junit",
       "JavaScript",
       "HTML/CSS",
       "Docker",
@@ -74,9 +82,6 @@
       "Flask"
     ],
     "familiar": [
-      "Java",
-      "Maven",
-      "Junit",
       "Google Cloud",
       "Express",
       "React",
